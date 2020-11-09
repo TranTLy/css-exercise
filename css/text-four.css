@@ -1,0 +1,37 @@
+.text-four {
+    display: flex;
+    align-items: center;
+    background-color: #40a9ff;
+    border-radius: 5px;
+    padding: 1rem .5rem;
+    width: 10rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.text-in-btn {
+    text-align: center;
+    color: #fff;
+    margin: auto;
+
+}
+
+.icon-in-btn {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: relative;
+    margin-left: auto;
+}
+
+.icon-in-btn::after {
+    position: absolute;
+    content: "\003E";
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -2px;
+}

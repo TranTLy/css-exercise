@@ -1,0 +1,25 @@
+.text-one {
+    position: relative;
+    font-weight: bold;
+    color: #fff;
+    font-size: 5rem;
+    font-style: italic;
+    text-shadow: -2px 0 #f759ab, 0 2px #f759ab, 2px 0 #f759ab, 0 -2px #f759ab;
+    -webkit-text-stroke: 4px #f759ab;
+}
+/* 
+.front {
+    color: green;
+    font-size: 5rem;
+    z-index: 10;
+}
+
+.back {
+    position: absolute;
+    top: -1rem;
+    left: -1rem;
+    color: red;
+    z-index: 0;
+    font-size: 5rem;
+    transform: scale(1.1);
+} */
