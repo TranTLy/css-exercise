@@ -1,31 +1,5 @@
 .text {
-    height: 2rem;
-    display: flex;
-    align-items: center;
-    padding-left: 1rem;
-}
-
-.bg {
-    margin-top: -2rem;
-    z-index: -1;
-    position: relative;
-    height: 2rem;
-}
-
-.bg::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    top: 0;
-    height: 1rem;
-    background-color: yellow;
-}
-
-.bg::after {
-    position: absolute;
-    content: "";
-    top: 1rem;
-    width: 100%;
-    height: 1rem;
-    background-color: pink;
+  background-image: repeating-linear-gradient(
+            lightblue, lightblue 12px, 
+            pink 12px, pink 21px)
 }
